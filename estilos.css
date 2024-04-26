@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    box-sizing: border-box; /* Añadido para mejorar el manejo del tamaño de los elementos */
+}
+
+.contenedor {
+    background: rgb(9, 46, 97);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Para alinear verticalmente los elementos */
+    text-align: center; /* Centrar texto en el contenedor */
+}
+
+.text-container {
+    margin-bottom: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.image-container {
+    margin-bottom: 20px; /* Espacio entre la imagen y los botones */
+}
+
+.button-container {
+    margin-top: 30px; /* Aumentamos un poco más el espacio entre la imagen y los botones */
+}
+
+p {
+    font-size: xx-large;
+    padding: 15%;
+    margin: 0; /* Ajuste para eliminar el espacio predeterminado del párrafo */
+}
+
+button {
+    font-size: xx-large;
+    padding: 0.75em;
+}
+
+img {
+    width: 200px; /* Establecer el ancho de la imagen */
+}
+
+#yesBtn {
+    transform: translate(-100%,0);
+    margin-right: 20px; /* Aumentamos un poco más el margen */
+}
+
+#noBtn {
+    position: absolute;
+    left: 50%; /* Posicionar el botón "No" en el centro */
+    transform: translateX(-50%); /* Centrar horizontalmente el botón "No" */
+    margin-left: 20px; /* Aumentamos un poco más el margen */
+}
